@@ -1,0 +1,6 @@
+.postcontent {
+    display:flex;
+    flex-direction:column;
+    width:700px;
+    margin:2rem 0rem 0rem 2rem;
+}

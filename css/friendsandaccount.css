@@ -1,0 +1,120 @@
+
+* {
+    font-family: monospace, sans-serif;
+    font-weight:800;
+}
+
+.accountinfo {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    top:100px;
+    right:150px;
+    bottom:0;
+    height:500px;
+    width:400px;
+}
+
+.friends {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:700px;
+    height:100px;
+    border:1px solid lightgrey;
+    margin:4rem 0rem 0rem 2rem;
+}
+
+.friendsimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60px;
+    height:60px;
+    border:2px solid pink;
+    border-radius:50%;
+}
+
+.friendpics {
+ object-fit:cover;
+ border-radius:50%;
+}
+
+.friendbox {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size:smaller;
+}
+
+.friendbox p {
+    font-family: monospace, sans-serif;
+    font-weight:800;
+    padding:0;
+    margin:0;
+}
+
+.accountinfobox {
+    display:flex;
+    justify-content: start;
+    align-items:center;
+    width:100%;
+}
+
+.accountimg {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    height:100px;
+    object-fit:cover;
+}
+
+.accimg {
+    object-fit: cover;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+}
+
+.newfriendcontainer{
+    display:flex;
+    flex-direction:column;
+}
+
+.picnameblock {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:0rem 1rem 0rem 1 rem;
+}
+
+.picnameblock a {
+    text-decoration: none;
+    color:blue;
+}
+
+.addnewfriends {
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin:1rem;
+}
+
+.addnewfriends p {
+    margin-left:1rem;
+}
+
+.addnewfriends a {
+    margin-left: 3rem;
+}
+
+.suggimg {
+    object-fit:cover;
+    width:40px;
+    height:40px;
+    border:1px solid lightgrey;
+    border-radius:50%;
+}
