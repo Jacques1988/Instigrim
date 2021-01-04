@@ -2,5 +2,80 @@
     display:flex;
     flex-direction:column;
     width:700px;
-    margin:2rem 0rem 0rem 2rem;
+    
+    border:1px solid lightgrey;
+    margin:2rem 0rem 2rem 2rem;
+}
+
+.postheader {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width:100%;
+    height:60px;
+    border:1px solid lightgrey;
+}
+
+.accountheaderimg {
+    display:flex;
+    align-items:center;
+    margin-left: 1rem;
+}
+
+.accountmenu {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-right:1rem;
+}
+ .accountmenu span {
+     width:3px;
+     height:3px;
+     background-color:grey;
+     border-radius:50%;
+     margin:0.25rem;
+ }
+
+ .postimg{
+     display:flex;
+     justify-content: center;
+     align-items:center;
+     object-fit:cover;
+ }
+
+ .postpic {
+     object-fit:cover;
+     height:100%;
+     width:100%;
+ }
+
+ .buttonsection {
+     display:flex;
+     justify-content: space-between;
+     align-items:center;
+     margin:1rem;
+ }
+
+ .likesection {
+     display:flex;
+     justify-content: flex-start;
+     align-items:center;
+ }
+
+ .likepic {
+     object-fit:cover;
+     border-radius:50%;
+     margin:1rem;
+ }
+
+.textfieldandpost {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.commentfield {
+    width:80%;
+    height:40px;
+    border:none;
 }
