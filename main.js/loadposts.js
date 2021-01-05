@@ -55,7 +55,7 @@ function loadposts() {
 </div>
 
 <div class="likesection">
-    <div><img id="youlikepic-${i}" class="likepic" src="img/songoku.png" width="25" height="25"></div>
+    <div><img id="youlikepic-${i}" class="likepic" src="img/songoku.PNG" width="25" height="25"></div>
     <div id="youlike-${i}" class="liketext">793 Superhelden gefällt das</div>
 </div>
 
@@ -70,12 +70,15 @@ function loadposts() {
     }
 }
 
+// Frage: Warum scrollt er wieder nach oben? Lädt er wieder die Komplette Seite? 
 
+//Press on the like heart, changes heart picture
 function like(i){
-    document.getElementById(`likeheart-${i}`).src = "img/heartfull.svg"; 
+    document.getElementById(`likeheart-${i}`).src = "img/heartfull.SVG"; 
     document.getElementById(`youlike-${i}`).innerHTML = "Dir und 793 anderen Superhelden gefällt das";
 }
 
+//press on post button adds comment
 function addcomment(i) {
     let comment = document.getElementById(`writecomment-${i}`).value;
     document.getElementById(`comment-${i}`).innerHTML += `<div class="postedcomment">Captain Jacques van Luyck:${comment}</div>`;
