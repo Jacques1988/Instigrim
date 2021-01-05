@@ -74,7 +74,7 @@ function loadposts() {
 
 //Press on the like heart, changes heart picture
 function like(i){
-    document.getElementById(`likeheart-${i}`).src = "img/heartfull.SVG"; 
+    document.getElementById(`likeheart-${i}`).src = "img/heartfull.svg"; 
     document.getElementById(`youlike-${i}`).innerHTML = "Dir und 793 anderen Superhelden gefällt das";
 }
 
