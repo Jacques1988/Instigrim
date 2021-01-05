@@ -2,7 +2,6 @@
     display:flex;
     flex-direction:column;
     width:700px;
-    
     border:1px solid lightgrey;
     margin:2rem 0rem 2rem 2rem;
 }
@@ -78,4 +77,23 @@
     width:80%;
     height:40px;
     border:none;
+}
+
+.postcomment {
+    margin:1rem;
+}
+
+.locationtext {
+    font-size:10px;
+    color:grey;
+}
+
+.commentbtn {
+    color:blue;
+    border:none;
+}
+
+.postedcomment {
+    font-weight:400;
+    margin:1rem;
 }
