@@ -78,5 +78,5 @@ function like(i){
 
 function addcomment(i) {
     let comment = document.getElementById(`writecomment-${i}`).value;
-    document.getElementById(`comment-${i}`).innerHTML += `<div class="postedcomment">Captain Jacques van Luyck :${comment}</div>`;
+    document.getElementById(`comment-${i}`).innerHTML += `<div class="postedcomment">Captain Jacques van Luyck:${comment}</div>`;
 } 
