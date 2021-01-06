@@ -47,7 +47,7 @@ function loadposts() {
 <div class="postimg"><img class="postpic" src="${account['postcontent']}"> </div>
 <div class="buttonsection">
     <div class="socialbtn">
-        <a href="#"><img id="likeheart-${i}" class="likeimg" onclick="like(${i})" src="img/heartempty.svg" width="35" height="35"></a>
+        <a href="javascript:;"><img id="likeheart-${i}" class="likeimg" onclick="like(${i})" src="img/heartempty.svg" width="35" height="35"></a>
         <a href="#"><img src="img/paper.svg" width="35" height="35"></a>
         <a href="#"><img src="img/comment.svg" width="35" height="35"></a>
     </div>
@@ -70,11 +70,10 @@ function loadposts() {
     }
 }
 
-// Frage: Warum scrollt er wieder nach oben? Lädt er wieder die Komplette Seite? 
 
 //Press on the like heart, changes heart picture
-function like(i){
-    document.getElementById(`likeheart-${i}`).src = "img/heartfull.svg"; 
+function like(i) {
+    document.getElementById(`likeheart-${i}`).src = "img/heartfull.svg";
     document.getElementById(`youlike-${i}`).innerHTML = "Dir und 793 anderen Superhelden gefällt das";
 }
 
@@ -82,4 +81,5 @@ function like(i){
 function addcomment(i) {
     let comment = document.getElementById(`writecomment-${i}`).value;
     document.getElementById(`comment-${i}`).innerHTML += `<div class="postedcomment">Captain Jacques van Luyck:${comment}</div>`;
-} 
+}
+

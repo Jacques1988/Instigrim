@@ -12,6 +12,7 @@
     <link href="css/friendsandaccount.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <script src="main.js/loadposts.js"></script>
+    <script src="main.js/searchprofiles.js"></script>
 </head>
 
 <body onload="loadposts()";>
@@ -20,7 +21,7 @@
         <div id="header" class="topheader">
             <div class="headermenu">
                 <div class="logoscript">Instigrim</div>
-                <div><input class="search" type="text" placeholder="Suchen"></div>
+                <div><input id="search" class="search" onkeydown="filternames()" type="text" placeholder="Suchen"></div>
                 <div class="images">
                     <div class="headerimg"><a href="#"><img src="img/home.svg" width="25" height="25"></div></a>
                     <div class="headerimg"><a href="#"><img src="img/paper.svg" width="25" height="25"></div></a>
@@ -32,7 +33,7 @@
         </div>
     </head>
     </div>
-
+    <div id="searchfield" class="searchfield"></div>
 
     <div class="accountinfo">
         <div class="myaccount">
