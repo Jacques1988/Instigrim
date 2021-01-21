@@ -1,0 +1,23 @@
+
+
+
+@media screen and (max-width: 1300px) {
+
+.accountinfo {
+    display:none !important;
+}
+
+}
+
+@media screen and (max-width:800px) {
+
+    .topheader {
+        display:none !important;
+    }
+
+    .friends {
+        display:none;
+    }
+
+    
+}
